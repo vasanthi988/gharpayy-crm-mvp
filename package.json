@@ -1,6 +1,17 @@
 {
+  "name": "a3x-gg",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@types/express": "^5.0.6",
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "vite": "^8.3.0"
   }
 }
